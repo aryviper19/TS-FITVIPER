@@ -8,7 +8,7 @@ export const sampleProducts: Product[]= [
       name: 'Push-Up Bar',
       slug: 'push-up-bar',
       category: 'Fitness-equipment',
-      image: '../images/Hand-Exerciser.jpg',
+      image: '/images/push-up-bar-black-green.jpg',
       price: 12.99,
       countInStock: 9,
       brand: 'FitViper',
