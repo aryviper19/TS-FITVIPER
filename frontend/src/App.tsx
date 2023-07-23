@@ -42,7 +42,7 @@ function App() {
         <Navbar expand="lg">
           <Container>
             <LinkContainer to="/">
-              <Navbar.Brand>FitViper</Navbar.Brand>
+              <Navbar.Brand>Fit-Viper</Navbar.Brand>
             </LinkContainer>
           </Container>
           <Nav>

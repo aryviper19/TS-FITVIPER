@@ -10,10 +10,10 @@ export const sampleProducts: Product[]= [
       category: 'Fitness-equipment',
       image: '/images/push-up-bar-black-green.jpg',
       price: 12.99,
-      countInStock: 9,
+      countInStock: 8,
       brand: 'FitViper',
       rating: 5,
-      numReviews: 13,
+      numReviews: 17,
       description: 'Perfect equipment for building muscles at home.',
     },
     {
