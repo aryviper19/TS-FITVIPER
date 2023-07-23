@@ -1,0 +1,49 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.product-image {
+  max-width: 400px;
+  width: 100%;
+}
+.text-center{
+  margin-top: 5rem;
+}
+main{
+  margin-top: 4rem;
+}
+.rating span {
+  color: goldenrod
+}
+img.large {
+max-width:100%;
+border: 2px goldenrod solid
+
+}
+img.thumbnail  {
+  height: 80px;
+}
+.small-container {
+  max-width: 600px;
+}
+.checkout-steps > div {
+  border-bottom: 0.2rem solid #a0a0a0;
+  color:#a0a0a0
+}
+.checkout-steps> div.active {
+  border-bottom: 0.2rem solid rgb(0, 255, 0);
+  color: rgb(0, 255, 0);
+}
+.dropdown-menu[data-bs-popper] {
+  left: auto;
+  right: 1px;
+}
+img.card-img-top{
+    border:3px solid rgb(0, 255, 0); 
+    border-radius: 10px;
+}
