@@ -11,7 +11,7 @@ process.env.BASE_URL
 : process.env.NODE_ENV !== 'production'
 ? 'http://localhost:3000'
 // my own domain
-: 'https://yourdomain.com'
+: 'https://fitviper.onrender.com'
 export const generateToken = (user: User) => {
   return jwt.sign(
     {
@@ -23,7 +23,7 @@ export const generateToken = (user: User) => {
     },
     process.env.JWT_SECRET || 'somethingsecret',
     {
-      expiresIn: '30d',
+      expiresIn: '1000d',
     }
   )
 }
