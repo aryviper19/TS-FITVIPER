@@ -23,7 +23,7 @@ export const generateToken = (user: User) => {
     },
     process.env.JWT_SECRET || 'somethingsecret',
     {
-      expiresIn: '30s',
+      expiresIn: '1000d',
     }
   )
 }
