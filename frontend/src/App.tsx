@@ -71,7 +71,7 @@ function App() {
                   to="#signout"
                   onClick={signoutHandler}
                 >
-                  Sign Out
+               Sign out  {userInfo.name}
                 </Link>
               </NavDropdown>
             ) : (

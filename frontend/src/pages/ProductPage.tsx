@@ -52,7 +52,7 @@ export default function ProductPage() {
           <img className="large" src={product.image} alt={product.name}></img>
         </Col>
         <Col md={3}>
-          <ListGroup variant="flush">
+          <ListGroup  className="productpage" variant="flush">
             <ListGroup.Item>
               <Helmet>
                 <title>{product.name}</title>

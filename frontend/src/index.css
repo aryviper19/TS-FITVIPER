@@ -21,10 +21,18 @@ main{
   color: goldenrod
 }
 img.large {
-max-width:100%;
-border: 2px goldenrod solid
+max-width:200%;
+border: 2px goldenrod solid;
+width: 90%;
+height: auto;
+display: block;
+margin-left: auto;
+margin-right: auto;
+
 
 }
+
+
 img.thumbnail  {
   height: 80px;
 }
