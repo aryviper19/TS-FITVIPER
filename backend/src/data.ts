@@ -40,7 +40,7 @@ export const sampleProducts: Product[]= [
       brand: 'FitViper',
       rating: 4.5,
       numReviews: 11,
-      description: 'Perfect equipment for getting veiny forearms.',
+      description: 'Perfect equipment for training forearms.',
     },
     {
       //_id: '4',

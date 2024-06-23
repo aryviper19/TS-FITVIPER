@@ -59,7 +59,7 @@ function App() {
               )}
             </Link>
             <Link to="/about-us" className="nav-link">
-             About us
+              About us
             </Link>
             {userInfo ? (
               <NavDropdown title={userInfo.name} id="basic-nav-dropdown">
@@ -71,8 +71,13 @@ function App() {
                   to="#signout"
                   onClick={signoutHandler}
                 >
-               Sign out  {userInfo.name}
+                  Sign out {userInfo.name}
                 </Link>
+                {userInfo.isAdmin ? (
+                  <Link className="dropdown-item" to="/dashboard">
+                    Dashboard
+                  </Link>
+                ) : null}
               </NavDropdown>
             ) : (
               <Link className="nav-link" to="/signin">
